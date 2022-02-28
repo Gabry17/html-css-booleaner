@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /* header */
 
 header div {
@@ -23,8 +22,10 @@ header img {
 /* main */
 
 main{
-    margin-left: 10px;
+    margin: 5px;
 }
+
+/* section1 */
 
 section h1 {
     font-size: 65px;
@@ -34,10 +35,64 @@ section h1 {
     color: grey;
 }
 
-span{
-    color: rgb(0, 166, 255);
+.color{
+    color: #00a6ff;
 }
 
-#image{
-    margin-top: 15px;
+#image {
+    margin-top: 20px;
 }
+
+/* section2 */
+
+.bg-color{
+    background-color: yellow;
+}
+
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul{
+    margin-left: 10px;
+}
+
+table{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table th{
+    color: white;
+    background-color: #6495ed;
+}
+
+.bg-color-table{
+    background-color: #00d9ff;
+}
+
+/* footer */
+
+footer{
+    margin: 5px;
+}
+
+h4{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.img1{
+    background-image: url(../img/monitor.jpg);
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.img2{
+    background-image: url(../img/graph.jpg);
+    width: 200px;
+    height: 200px;
+}
+
