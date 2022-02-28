@@ -1,3 +1,43 @@
 *{
-    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header div {
+    position: relative;
+    height: 130px;
+    background-color: #6495ed; 
+    background-image: url("../img/pattern.png");
+}
+
+header img {
+    width: 300px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+/* main */
+
+main{
+    margin-left: 10px;
+}
+
+section h1 {
+    font-size: 65px;
+}
+
+.text{
+    color: grey;
+}
+
+span{
+    color: rgb(0, 166, 255);
+}
+
+#image{
+    margin-top: 15px;
 }
