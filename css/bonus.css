@@ -1,0 +1,23 @@
+/* header */
+header div {
+    position: relative;
+}
+
+header img {
+    position: absolute;
+    left: 15%;
+    bottom: 10px;
+}
+
+/* main */
+main{
+    width: 70%;
+    margin: auto;
+}
+
+
+/* footer */
+footer{
+    width: 70%;
+    margin: auto;
+}
